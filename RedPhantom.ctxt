@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=RedPhantom
+comment1.params=
+comment1.target=RedPhantom()
+comment2.params=
+comment2.target=void\ act()
+comment3.params=movePhantom
+comment3.target=void\ movetPhantom(int)
+comment4.params=
+comment4.target=boolean\ checkCollisions()
+numComments=5
