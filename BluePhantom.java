@@ -21,7 +21,8 @@ public class BluePhantom extends Phantom
            
     }
     
-        public void act() 
+     
+     public void act() 
     {
         
       setLocation(getX() + movementInX, getY() + movementInY);
@@ -31,7 +32,7 @@ public class BluePhantom extends Phantom
              
        if(colision==true){
            
-       movePhantom = Greenfoot.getRandomNumber(3);
+       movePhantom = Greenfoot.getRandomNumber(4);
         
              checkCollisions();
              
@@ -108,4 +109,5 @@ public class BluePhantom extends Phantom
         }
         return colision=false;
     }
+
 }

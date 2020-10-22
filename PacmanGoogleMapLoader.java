@@ -40,6 +40,12 @@ public class PacmanGoogleMapLoader implements StaticMapLoader
         map.addObject(new Wall(), 350, 50);
         map.addObject(new Wall(), 400, 50);
         map.addObject(new Wall(), 450, 50);
+        map.addObject(new Wall(), 500, 50);
+        map.addObject(new Wall(), 550, 50);
+        map.addObject(new Wall(), 600, 50);
+        map.addObject(new Wall(), 650, 50);
+        map.addObject(new Wall(), 700, 50);
+        
         
         map.addObject(new Wall(), 50, 50);
         map.addObject(new Wall(), 50, 100);
